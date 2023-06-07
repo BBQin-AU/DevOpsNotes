@@ -1,4 +1,4 @@
-FROM python:3.6.1-alpine
+FROM python:3.9-alpine
 ADD src/ /application
 WORKDIR /application
 RUN set -e; \
